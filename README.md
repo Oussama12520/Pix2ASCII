@@ -1,169 +1,103 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+# 🐍 OSAMA ASCII Art Studio
 
-# 🐍 COBRA ASCII Art Studio
+**Elevate your imagery with AI-driven ASCII precision.**
 
-**Create stunning ASCII art with the power of AI**
+![OSAMA Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
 
-[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://reactjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-blue.svg)](https://www.typescriptlang.org/)
-[![Vite](https://img.shields.io/badge/Vite-6.4.1-646CFF.svg)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-</div>
+[![Project License](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
+[![Built with React](https://img.shields.io/badge/React-19.0.0-blue.svg)](https://reactjs.org/)
+[![Vite Powered](https://img.shields.io/badge/Vite-6.0.0-646CFF.svg)](https://vitejs.dev/)
+[![AI Powered](https://img.shields.io/badge/AI-Gemini%20Flash-orange.svg)](https://ai.google.dev/)
+[![Deployment](https://img.shields.io/badge/Live-GitHub%20Pages-success.svg)](https://oussama12520.github.io/Pix2ASCII/)
 
 ---
 
-## 🎨 About
+## 🎨 Overview
 
-**Cobra ASCII Art Studio** is an AI-powered web application that transforms your text descriptions into beautiful ASCII art. Powered by Google's Gemini AI, this tool makes creating ASCII art easier than ever before.
+**OSAMA ASCII Art Studio** is a professional-grade web application designed to bridge the gap between digital photography and retro-terminal aesthetics. Leveraging the advanced reasoning capabilities of **Google Gemini AI**, OSAMA analyzes your images to suggest the most effective character palettes, ensuring every detail—from fine textures to complex lighting—is captured in text.
 
-### ✨ Key Features
+---
 
-- 🤖 **AI-Powered Generation** - Leverages Google Gemini to create custom ASCII art from text prompts
-- 🎭 **Interactive Canvas** - Real-time ASCII art preview and editing
-- 🎨 **Multiple Styles** - Choose from various ASCII art styles and formats
-- 💾 **Export Options** - Save your creations in multiple formats
-- 🌙 **Modern UI** - Clean, intuitive interface built with React and TypeScript
-- ⚡ **Fast Performance** - Powered by Vite for lightning-fast development and builds
+## ✨ Premium Features
+
+- 🤖 **AI-Contextual Analysis** – Gemini AI detects image content and recommends optimized character sets and resolutions.
+- 🎨 **Multi-Style Rendering** – Choose between Classic characters, Braille dots, Solid blocks, or Mathematical symbols.
+- 🌈 **Full Color Depth** – Render ASCII art in high-fidelity color or classic terminal green.
+- ⚡ **Real-Time Engine** – Instant feedback loop with GPU-accelerated canvas processing.
+- 📸 **High-Resolution Exports** – Download your creations as optimized `.png` images or clean `.txt` files.
+- 📜 **Historical Persistence** – Integrated session logging to track and restore your previous art sequences.
+- 🕹️ **Retro Aesthetics** – Modern UI with CRT scanline overlays and a refined cyberpunk color palette.
 
 ---
 
 ## 🚀 Quick Start
 
-### Prerequisites
-
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **Gemini API Key** - Get yours at [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Oussama12520/Pix2ASCII.git
-   cd Pix2ASCII
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Configure API Key**
-   - Open `.env.local` file
-   - Add your Gemini API key:
-     ```
-     API_KEY=your_gemini_api_key_here
-     ```
-
-4. **Start the application**
-
-   **Option A: Using the launcher (Windows)**
-   - Simply double-click `start-project.bat`
-   - The browser will automatically open to `http://localhost:10000`
-
-   **Option B: Manual start**
-   ```bash
-   npm run dev
-   ```
-   - Navigate to `http://localhost:10000` in your browser
-
----
-
-## 📖 Usage
-
-1. **Enter your prompt** - Describe the ASCII art you want to create
-2. **Generate** - Click the generate button and let AI work its magic
-3. **Edit & Refine** - Adjust the result to your liking
-4. **Export** - Save your creation in your preferred format
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework:** React 18.3.1
-- **Language:** TypeScript 5.6.2
-- **Build Tool:** Vite 6.4.1
-- **AI Integration:** Google Gemini API
-- **Styling:** Modern CSS with responsive design
-
----
-
-## 📁 Project Structure
-
-```
-COBRA_CORE_V2.5/
-├── src/
-│   ├── App.tsx              # Main application component
-│   ├── index.tsx            # Application entry point
-│   ├── types.ts             # TypeScript type definitions
-│   └── services/            # API and service integrations
-├── index.html               # HTML template
-├── vite.config.ts           # Vite configuration
-├── tsconfig.json            # TypeScript configuration
-├── start-project.bat        # Windows launcher script
-└── README.md                # This file
-```
-
----
-
-## 🎯 Development
-
-### Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
-
-### Building for Production
-
+### 1. Installation
 ```bash
-npm run build
+# Clone the repository
+git clone https://github.com/Oussama12520/Pix2ASCII.git
+cd Pix2ASCII
+
+# Install dependencies
+npm install
 ```
 
-The optimized production build will be created in the `dist/` directory.
+### 2. Configuration
+Create a `.env.local` file in the root directory and add your Gemini API Key:
+```env
+API_KEY=your_gemini_api_key_here
+```
+*Get your key at [Google AI Studio](https://aistudio.google.com/).*
+
+### 3. Launch
+**Windows Users:**
+Double-click `start-project.bat` to launch the dev server and open the UI automatically.
+
+**Manual Launch:**
+```bash
+npm run dev
+```
+Navigate to `http://localhost:10000`.
 
 ---
 
-## 🤝 Contributing
+## 🛠️ Performance Tech Stack
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- **Core:** React 19 (Latest)
+- **Engine:** Vite 6
+- **Processing:** HTML5 Canvas API + Web Workers
+- **AI Backend:** Google Generative AI (Gemini 1.5 Flash)
+- **Styling:** Tailwind CSS + Custom CSS Variables
+- **Deployment:** GitHub Actions + GitHub Pages
 
 ---
 
-## 👤 Author
+## 📂 Architecture
 
-**Oussama**
-- GitHub: [@Oussama12520](https://github.com/Oussama12520)
+```text
+OSAMA_CORE_V2.5/
+├── src/
+│   ├── App.tsx              # Reactive UI & Processing Logic
+│   ├── index.tsx            # Entry Point
+│   ├── types.ts             # Strict Typing System
+│   └── services/            # AI & API Integrations
+├── .github/workflows/       # CI/CD Deployment Pipelines
+├── start-project.bat        # Simplified Launcher
+└── vite.config.ts           # Build & Hosting Configuration
+```
 
 ---
 
-## 🙏 Acknowledgments
+## 🤝 Contribution & Support
 
-- Powered by [Google Gemini AI](https://ai.google.dev/)
-- Built with [Vite](https://vitejs.dev/)
-- UI Framework by [React](https://reactjs.org/)
+OSAMA is an open-source project. If you'd like to contribute, please fork the repo and submit a PR.
+
+- **Author:** [Oussama](https://github.com/Oussama12520)
+- **Deployment:** [Live Studio](https://oussama12520.github.io/Pix2ASCII/)
 
 ---
 
 <div align="center">
-
-**Made with ❤️ and 🐍**
-
-⭐ Star this repo if you find it helpful!
-
+  <p><strong>Developed with precision and passion by OSAMA</strong></p>
+  <img src="https://img.shields.io/badge/Made%20with-Emerald-059669" alt="Made with Emerald">
 </div>

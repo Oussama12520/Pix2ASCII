@@ -22,7 +22,7 @@ export const analyzeImageForAscii = async (imageBase64: string): Promise<AiSugge
           },
         },
         {
-          text: `You are an ASCII Art Master. Analyze this image (likely a cobra or similar complex subject).
+          text: `You are an ASCII Art Master. Analyze this image.
           
           1. Detect the primary textures (e.g., diamond scales, smooth skin, sharp fangs).
           2. Recommend a 'palette' of 12 characters from high density to low density.

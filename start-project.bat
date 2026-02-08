@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 
 echo ========================================
-echo   Cobra ASCII Art Studio Launcher
+echo   OSAMA ASCII Art Studio Launcher
 echo ========================================
 echo.
 
@@ -30,7 +30,7 @@ if not exist "node_modules\" (
 
 REM Start the development server
 echo Starting dev server...
-start "Cobra Dev Server" cmd /k "npm run dev"
+start "OSAMA Dev Server" cmd /k "npm run dev"
 
 REM Wait for server to start
 echo Waiting for server to start...
