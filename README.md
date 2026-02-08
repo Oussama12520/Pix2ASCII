@@ -41,8 +41,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Oussama12520/COBRA_CORE_V2.5.git
-   cd COBRA_CORE_V2.5
+   git clone https://github.com/Oussama12520/Pix2ASCII.git
+   cd Pix2ASCII
    ```
 
 2. **Install dependencies**
