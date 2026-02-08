@@ -223,7 +223,7 @@ const App: React.FC = () => {
     });
 
     const link = document.createElement('a');
-    link.download = `osama-ascii-${Date.now()}.png`;
+    link.download = `pix2ascii-${Date.now()}.png`;
     link.href = exportCanvas.toDataURL();
     link.click();
   };
@@ -232,7 +232,7 @@ const App: React.FC = () => {
     const element = document.createElement("a");
     const file = new Blob([rawAscii], { type: 'text/plain' });
     element.href = URL.createObjectURL(file);
-    element.download = `osama-ascii-${Date.now()}.txt`;
+    element.download = `pix2ascii-${Date.now()}.txt`;
     document.body.appendChild(element);
     element.click();
     document.body.removeChild(element);
@@ -250,7 +250,7 @@ const App: React.FC = () => {
             <i className={`fa-solid ${showHistory ? 'fa-xmark' : 'fa-clock-rotate-left'} text-xl`}></i>
           </button>
           <div>
-            <h1 className="font-mono font-bold text-lg tracking-tighter text-emerald-400">OSAMA_CORE_V2.5</h1>
+            <h1 className="font-mono font-bold text-lg tracking-tighter text-emerald-400">Pix2ASCII_CORE_V2.5</h1>
             <div className="flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
               <span className="text-[10px] font-mono text-emerald-900 uppercase tracking-widest">System Active</span>
@@ -409,7 +409,7 @@ const App: React.FC = () => {
 
       <canvas ref={canvasRef} className="hidden" />
       <footer className="h-8 bg-[#050505] border-t border-emerald-900/10 flex items-center px-4 justify-between font-mono text-[9px] text-emerald-900 uppercase tracking-[0.2em]">
-        <span>Osama_ASCII_Unit_111</span>
+        <span>Pix2ASCII_Unit_111</span>
         <span className="hidden md:inline">Secure Local Processing Mode // End-to-End Encryption</span>
         <span>Build: v1.1.0_PROD</span>
       </footer>

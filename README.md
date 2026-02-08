@@ -1,4 +1,4 @@
-# OSAMA ASCII Art Studio
+# Pix2ASCII Art Studio
 
 **Elevate your imagery with AI-driven ASCII precision.**
 
@@ -12,7 +12,7 @@
 
 ## Overview
 
-OSAMA ASCII Art Studio is a professional-grade web application designed to bridge the gap between digital photography and retro-terminal aesthetics. Leveraging the advanced reasoning capabilities of Google Gemini AI, OSAMA analyzes your images to suggest the most effective character palettes, ensuring every detail—from fine textures to complex lighting—is captured in text.
+Pix2ASCII Art Studio is a professional-grade web application designed to bridge the gap between digital photography and retro-terminal aesthetics. Leveraging the advanced reasoning capabilities of Google Gemini AI, Pix2ASCII analyzes images to suggest the most effective character palettes, ensuring every detail—from fine textures to complex lighting—is captured in text.
 
 ---
 
@@ -22,40 +22,9 @@ OSAMA ASCII Art Studio is a professional-grade web application designed to bridg
 - Multi-Style Rendering – Choose between Classic characters, Braille dots, Solid blocks, or Mathematical symbols.
 - Full Color Depth – Render ASCII art in high-fidelity color or classic terminal green.
 - Real-Time Engine – Instant feedback loop with GPU-accelerated canvas processing.
-- High-Resolution Exports – Download your creations as optimized .png images or clean .txt files.
-- Historical Persistence – Integrated session logging to track and restore your previous art sequences.
+- High-Resolution Exports – Download creations as optimized .png images or clean .txt files.
+- Historical Persistence – Integrated session logging to track and restore previous art sequences.
 - Retro Aesthetics – Modern UI with CRT scanline overlays and a refined cyberpunk color palette.
-
----
-
-## Quick Start
-
-### 1. Installation
-```bash
-# Clone the repository
-git clone https://github.com/Oussama12520/Pix2ASCII.git
-cd Pix2ASCII
-
-# Install dependencies
-npm install
-```
-
-### 2. Configuration
-Create a .env.local file in the root directory and add your Gemini API Key:
-```env
-API_KEY=your_gemini_api_key_here
-```
-*Get your key at [Google AI Studio](https://aistudio.google.com/).*
-
-### 3. Launch
-**Windows Users:**
-Double-click start-project.bat to launch the dev server and open the UI automatically.
-
-**Manual Launch:**
-```bash
-npm run dev
-```
-Navigate to http://localhost:10000.
 
 ---
 
@@ -73,7 +42,7 @@ Navigate to http://localhost:10000.
 ## Architecture
 
 ```text
-OSAMA_CORE_V2.5/
+Pix2ASCII_CORE_V2.5/
 ├── src/
 │   ├── App.tsx              # Reactive UI & Processing Logic
 │   ├── index.tsx            # Entry Point
@@ -86,14 +55,14 @@ OSAMA_CORE_V2.5/
 
 ---
 
-## Contribution & Support
+## Support
 
-OSAMA is an open-source project. If you'd like to contribute, please fork the repo and submit a PR.
+Pix2ASCII is an private project.
 
 - Author: [Oussama](https://github.com/Oussama12520)
 - Deployment: [Live Studio](https://oussama12520.github.io/Pix2ASCII/)
 
 ---
 
-Developed with precision and passion by OSAMA
+Developed with precision and passion by Oussama
 [![Made with Emerald](https://img.shields.io/badge/Made%20with-Emerald-059669)](https://github.com/Oussama12520/Pix2ASCII)
